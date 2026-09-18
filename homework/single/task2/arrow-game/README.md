@@ -143,7 +143,7 @@ python -m unittest discover -s tests -v
 
 ## 博客与 PSP
 
-博客初稿见 [博客草稿.md](docs/博客草稿.md)，PSP 表见 [PSP.md](docs/PSP.md)。其中学号、课程链接和作业链接仍需提交者填写。
+博客最终提交稿见 [博客园提交稿.md](docs/博客园提交稿.md)，初稿见 [博客草稿.md](docs/博客草稿.md)，PSP 表见 [PSP.md](docs/PSP.md)。其中学号、课程链接和作业链接仍需提交者填写。
 
 ## GitHub 仓库
 
@@ -167,6 +167,7 @@ git commit -m "feat: 完成箭头棋盘和基础界面"
 ```
 
 克隆或下载后，按照“安装与运行”步骤即可运行。
+
 
 
 
