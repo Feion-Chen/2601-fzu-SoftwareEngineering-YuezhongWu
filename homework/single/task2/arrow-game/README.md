@@ -10,7 +10,13 @@
 
 ![游戏界面](docs/screenshots/gameplay.png)
 
-![通关界面](docs/screenshots/complete.png)
+![第一关通关](docs/screenshots/complete.png)
+
+![第二关通关](docs/screenshots/level2_complete.png)
+
+![全部关卡完成](docs/screenshots/all_complete.png)
+
+![失败界面](docs/screenshots/failed.png)
 
 ## 游戏简介
 
@@ -161,5 +167,6 @@ git commit -m "feat: 完成箭头棋盘和基础界面"
 ```
 
 克隆或下载后，按照“安装与运行”步骤即可运行。
+
 
 
