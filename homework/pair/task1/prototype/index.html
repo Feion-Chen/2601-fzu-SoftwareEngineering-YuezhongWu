@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>校园寻物 - 可点击原型</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">软件工程结对作业 · 需求分析与原型设计</p>
+      <h1>校园失物招领小程序</h1>
+      <p class="subtitle">点击左侧页面名称，或直接点击手机中的按钮体验主要流程。</p>
+    </div>
+    <div class="team">
+      <span>陈飞扬 102402118</span>
+      <span>蔡以恒 102402117</span>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <aside class="screen-list">
+      <h2>原型页面</h2>
+      <button class="screen-link" data-goto="home">01　首页</button>
+      <button class="screen-link" data-goto="search">02　搜索</button>
+      <button class="screen-link" data-goto="detail">03　信息详情</button>
+      <button class="screen-link" data-goto="publish">04　发布信息</button>
+      <button class="screen-link" data-goto="success">05　发布成功</button>
+      <button class="screen-link" data-goto="posts">06　我的发布</button>
+      <div class="tip">
+        <strong>演示流程</strong>
+        <p>首页 → 搜索 → 详情 → 联系发布者</p>
+        <p>首页 → 发布 → 填写信息 → 发布成功</p>
+      </div>
+    </aside>
+
+    <section class="device-stage">
+      <div class="phone">
+        <div class="statusbar">
+          <span>9:41</span>
+          <span>校园网络　100%</span>
+        </div>
+        <div class="phone-body" id="app">
+          <section class="screen active" id="screen-home">
+            <div class="top-header">
+              <div>
+                <p class="caption">福州大学 · 旗山校区</p>
+                <h2>校园寻物</h2>
+              </div>
+              <button class="icon-button" data-goto="posts">我的</button>
+            </div>
+            <button class="search-trigger" data-goto="search">
+              <span>搜索物品名称、地点或描述</span><b>搜索</b>
+            </button>
+            <div class="segment">
+              <button class="active">全部</button>
+              <button>寻物</button>
+              <button>招领</button>
+            </div>
+            <div class="section-title"><h3>最新信息</h3><span>共 28 条</span></div>
+            <article class="item-card" data-goto="detail">
+              <div class="item-visual card-blue">卡</div>
+              <div class="item-copy">
+                <div class="item-line"><h4>丢失一张校园卡</h4><span class="tag lost">寻物</span></div>
+                <p>图书馆一楼 · 今天 08:40</p>
+                <p class="muted">蓝色卡套，姓名已部分遮挡</p>
+              </div>
+            </article>
+            <article class="item-card" data-goto="detail">
+              <div class="item-visual card-green">伞</div>
+              <div class="item-copy">
+                <div class="item-line"><h4>捡到一把黑色雨伞</h4><span class="tag found">招领</span></div>
+                <p>紫金楼 A 区 · 昨天 21:10</p>
+                <p class="muted">长柄伞，伞柄上有一条白绳</p>
+              </div>
+            </article>
+            <article class="item-card" data-goto="detail">
+              <div class="item-visual card-gold">杯</div>
+              <div class="item-copy">
+                <div class="item-line"><h4>遗失白色保温杯</h4><span class="tag lost">寻物</span></div>
+                <p>第一食堂 · 9 月 24 日</p>
+                <p class="muted">杯身有绿色植物贴纸</p>
+              </div>
+            </article>
+            <nav class="bottom-nav">
+              <button class="active" data-goto="home">首页</button>
+              <button class="publish" data-goto="publish">＋ 发布</button>
+              <button data-goto="posts">我的</button>
+            </nav>
+          </section>
+
+          <section class="screen" id="screen-search">
+            <div class="sub-header">
+              <button class="back" data-goto="home">‹</button>
+              <h2>搜索信息</h2>
+              <span></span>
+            </div>
+            <div class="search-box">
+              <span>⌕</span>
+              <input value="校园卡" aria-label="关键词">
+              <button>取消</button>
+            </div>
+            <p class="caption">筛选条件</p>
+            <div class="chip-row">
+              <button class="chip active">全部类型</button>
+              <button class="chip">寻物</button>
+              <button class="chip">招领</button>
+            </div>
+            <div class="chip-row">
+              <button class="chip active">图书馆</button>
+              <button class="chip">食堂</button>
+              <button class="chip">宿舍区</button>
+            </div>
+            <div class="section-title"><h3>搜索结果</h3><span>3 条</span></div>
+            <article class="compact-card" data-goto="detail">
+              <div class="mini-icon blue">卡</div>
+              <div><h4>丢失一张校园卡</h4><p>图书馆一楼 · 今天 08:40</p></div>
+              <span class="tag lost">寻物</span>
+            </article>
+            <article class="compact-card" data-goto="detail">
+              <div class="mini-icon green">卡</div>
+              <div><h4>拾到校园卡一张</h4><p>图书馆三楼 · 昨天 16:20</p></div>
+              <span class="tag found">招领</span>
+            </article>
+            <article class="compact-card" data-goto="detail">
+              <div class="mini-icon gold">卡</div>
+              <div><h4>校园卡卡套遗失</h4><p>教学楼东门 · 9 月 23 日</p></div>
+              <span class="tag lost">寻物</span>
+            </article>
+          </section>
+
+          <section class="screen" id="screen-detail">
+            <div class="sub-header">
+              <button class="back" data-goto="home">‹</button>
+              <h2>信息详情</h2>
+              <span class="more">⋯</span>
+            </div>
+            <div class="detail-hero">
+              <div class="hero-card">校园卡示意图</div>
+              <span class="tag lost">寻物</span>
+            </div>
+            <h2 class="detail-title">丢失一张校园卡</h2>
+            <p class="detail-time">发布于今天 08:46 · 浏览量 26</p>
+            <div class="info-grid">
+              <div><span>物品类型</span><b>证件卡类</b></div>
+              <div><span>遗失地点</span><b>图书馆一楼</b></div>
+              <div><span>遗失时间</span><b>今天 08:40</b></div>
+              <div><span>当前状态</span><b class="green-text">寻找中</b></div>
+            </div>
+            <h3>物品描述</h3>
+            <p class="description">蓝色透明卡套，校园卡姓名为陈同学，卡套夹层里有一张白色借阅码。若有拾到请联系我，非常感谢。</p>
+            <div class="poster-card">
+              <div class="avatar">陈</div>
+              <div><b>陈同学</b><p>计算机学院 · 今日活跃</p></div>
+              <button data-action="contact">联系方式</button>
+            </div>
+            <div class="sticky-action"><button data-action="contact">联系发布者</button></div>
+          </section>
+
+          <section class="screen" id="screen-publish">
+            <div class="sub-header">
+              <button class="back" data-goto="home">‹</button>
+              <h2>发布信息</h2>
+              <span></span>
+            </div>
+            <div class="publish-switch">
+              <button class="active">我丢失了物品</button>
+              <button>我捡到了物品</button>
+            </div>
+            <form class="publish-form" onsubmit="return false;">
+              <label>物品名称<input value="校园卡"></label>
+              <label>物品类型<select><option>证件卡类</option><option>电子产品</option><option>生活用品</option><option>书籍资料</option></select></label>
+              <label>地点<input value="图书馆一楼"></label>
+              <label>时间<input value="2026-09-26 08:40"></label>
+              <label>详细描述<textarea>蓝色透明卡套，卡套中有一张白色借阅码。</textarea></label>
+              <div class="upload-box">＋　添加物品图片（可选）</div>
+              <label>联系方式<input value="手机号或微信号"></label>
+              <button class="primary-button" type="button" data-goto="success">确认发布</button>
+            </form>
+          </section>
+
+          <section class="screen" id="screen-success">
+            <div class="success-wrap">
+              <div class="success-icon">✓</div>
+              <h2>发布成功</h2>
+              <p>你的寻物信息已发布，可以在“我的发布”中查看和管理。</p>
+              <div class="success-card">
+                <span class="tag lost">寻物</span>
+                <h3>丢失一张校园卡</h3>
+                <p>图书馆一楼 · 今天 08:40</p>
+              </div>
+              <button class="primary-button" data-goto="posts">查看我的发布</button>
+              <button class="secondary-button" data-goto="home">返回首页</button>
+            </div>
+          </section>
+
+          <section class="screen" id="screen-posts">
+            <div class="sub-header">
+              <button class="back" data-goto="home">‹</button>
+              <h2>我的发布</h2>
+              <span></span>
+            </div>
+            <div class="stat-row">
+              <div><b>3</b><span>全部发布</span></div>
+              <div><b>1</b><span>寻找中</span></div>
+              <div><b>2</b><span>已归还</span></div>
+            </div>
+            <article class="post-card">
+              <div class="item-line"><h4>丢失一张校园卡</h4><span class="status pending">寻找中</span></div>
+              <p>图书馆一楼 · 今天 08:40</p>
+              <div class="post-actions"><button class="toggle-status">标记为已找到</button><button data-goto="detail">查看详情</button></div>
+            </article>
+            <article class="post-card">
+              <div class="item-line"><h4>捡到一把黑色雨伞</h4><span class="status done">已归还</span></div>
+              <p>紫金楼 A 区 · 昨天 21:10</p>
+              <div class="post-actions"><button class="toggle-status">重新设为招领中</button><button data-goto="detail">查看详情</button></div>
+            </article>
+          </section>
+        </div>
+      </div>
+      <p class="prototype-note">交互原型：用于展示页面关系和基本操作，不包含真实数据提交。</p>
+    </section>
+  </main>
+
+  <div class="toast" id="toast">已打开联系方式面板</div>
+  <script src="app.js"></script>
+</body>
+</html>

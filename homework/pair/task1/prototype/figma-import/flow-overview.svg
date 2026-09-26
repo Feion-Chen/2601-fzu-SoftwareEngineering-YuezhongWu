@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#3267E3"/></marker></defs>
+<rect width="980" height="620" fill="#F4F7FC" rx="28"/>
+<text x="52" y="62" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="800" fill="#18213A">校园失物招领基本流程</text>
+<text x="52" y="91" font-family="Microsoft YaHei, Arial" font-size="13" fill="#74809A">左侧为寻找物品流程，右侧为发布信息流程。</text>
+<rect x="52" y="128" width="406" height="420" rx="22" fill="#FFFFFF" stroke="#E0E7F2"/>
+<rect x="522" y="128" width="406" height="420" rx="22" fill="#FFFFFF" stroke="#E0E7F2"/>
+<text x="82" y="168" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="800" fill="#3267E3">查看信息 → 联系发布者</text>
+<text x="552" y="168" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="800" fill="#2E9F75">发布信息 → 发布成功</text>
+<rect x="110" y="205" width="290" height="58" rx="16" fill="#EAF1FF"/><text x="255" y="240" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" fill="#3267E3">进入首页</text>
+<line x1="255" y1="263" x2="255" y2="310" stroke="#3267E3" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="110" y="314" width="290" height="58" rx="16" fill="#EAF1FF"/><text x="255" y="349" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" fill="#3267E3">浏览或搜索信息</text>
+<line x1="255" y1="372" x2="255" y2="419" stroke="#3267E3" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="110" y="423" width="290" height="58" rx="16" fill="#EAF1FF"/><text x="255" y="458" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" fill="#3267E3">查看物品详情</text>
+<line x1="255" y1="481" x2="255" y2="516" stroke="#3267E3" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="255" y="537" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#3267E3">联系发布者</text>
+<rect x="580" y="205" width="290" height="58" rx="16" fill="#E8F7F1"/><text x="725" y="240" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" fill="#2E9F75">进入发布页面</text>
+<line x1="725" y1="263" x2="725" y2="310" stroke="#2E9F75" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="580" y="314" width="290" height="58" rx="16" fill="#E8F7F1"/><text x="725" y="349" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" fill="#2E9F75">填写物品信息</text>
+<line x1="725" y1="372" x2="725" y2="419" stroke="#2E9F75" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="580" y="423" width="290" height="58" rx="16" fill="#E8F7F1"/><text x="725" y="458" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" fill="#2E9F75">确认发布</text>
+<line x1="725" y1="481" x2="725" y2="516" stroke="#2E9F75" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="725" y="537" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#2E9F75">发布成功</text>
+<text x="490" y="592" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="12" fill="#8A96AA">陈飞扬 102402118  ·  蔡以恒 102402117</text>
+</svg>
