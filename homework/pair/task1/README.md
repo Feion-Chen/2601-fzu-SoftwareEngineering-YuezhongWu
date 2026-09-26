@@ -14,7 +14,7 @@
 - 需求分析：用户角色、主要问题、功能范围、业务流程和非功能需求。
 - 原型设计：首页、搜索、详情、发布、发布成功、我的发布等页面。
 - 流程图：浏览详情流程、发布成功流程。
-- 博客材料：800—1200 字博客稿、PSP 表、结对过程和个人总结。
+- 博客材料：800—1200 字博客稿、PSP 表、结对过程，以及陈飞扬版个人总结。
 - Figma 素材：可直接导入 Figma 的 6 个 SVG 页面。
 
 ## 原型范围
@@ -40,5 +40,7 @@ Figma 在线原型链接：https://www.figma.com/proto/Wqwee4J61MQya7CimcfpZs/%E
 - prototype/screens：6 个原始 SVG 页面。
 - prototype/figma-import：导入 Figma 的步骤。
 - prototype/screenshots：用于博客展示的原型图片和流程图。
+
+
 
 
