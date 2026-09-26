@@ -30,7 +30,7 @@
 
 设计工具：Figma。
 
-Figma 在线原型链接：FIGMA_LINK_PLACEHOLDER
+Figma 在线原型链接：https://www.figma.com/proto/Wqwee4J61MQya7CimcfpZs/%E6%A0%A1%E5%9B%AD%E5%A4%B1%E7%89%A9%E6%8B%9B%E9%A2%86%E5%B0%8F%E7%A8%8B%E5%BA%8F?node-id=2-155&p=f&t=QTXI3LpOVlLl3dWi-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A155
 
 临时网页原型：prototype/index.html
 
@@ -40,3 +40,5 @@ Figma 在线原型链接：FIGMA_LINK_PLACEHOLDER
 - prototype/screens：6 个原始 SVG 页面。
 - prototype/figma-import：导入 Figma 的步骤。
 - prototype/screenshots：用于博客展示的原型图片和流程图。
+
+

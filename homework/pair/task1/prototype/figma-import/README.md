@@ -39,4 +39,5 @@
 4. 点击 Present，复制浏览器地址栏中的原型展示链接。
 5. 将链接填写到博客稿和项目 README 中。
 
-在线链接：FIGMA_LINK_PLACEHOLDER
+在线链接：https://www.figma.com/proto/Wqwee4J61MQya7CimcfpZs/%E6%A0%A1%E5%9B%AD%E5%A4%B1%E7%89%A9%E6%8B%9B%E9%A2%86%E5%B0%8F%E7%A8%8B%E5%BA%8F?node-id=2-155&p=f&t=QTXI3LpOVlLl3dWi-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A155
+
